@@ -1,0 +1,56 @@
+.page-selection {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    border: 1px solid#EEEEEE;
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-box-shadow: -1px 4px 10px 4px rgb(0 0 0 / 4%);
+  }
+  
+  .page-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .page-option:hover {
+    cursor: pointer;
+  }
+  .page-options hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  .page-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page-option input[type="checkbox"] {
+    height: 23px;
+    width: 23px;
+    border-color: #CDCDCD;
+
+  }
+  .page-option input:hover{
+    cursor: pointer;
+  }
+  .page-option label:hover{
+    cursor: pointer;
+  }
+  
+  .done-button {
+    background-color:#FFCE22;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .done-button:hover {
+    background-color: #FFD84D; 
+
+  }
